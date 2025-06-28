@@ -1,0 +1,8 @@
+/worlds
+
+# Docker
+*.log
+*.pid
+
+# macOS
+.DS_Store
