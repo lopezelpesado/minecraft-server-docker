@@ -1,4 +1,5 @@
 /worlds
+/data
 
 # Docker
 *.log

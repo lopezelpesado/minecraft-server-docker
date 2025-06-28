@@ -1,0 +1,14 @@
+services:
+  minecraft-server:
+    image: itzg/minecraft-server
+    container_name: minecraft-server
+    ports:
+      - "25565:25565"
+    environment:
+      EULA: "TRUE"
+      MEMORY: "2G"
+      LEVEL: "alexs_christian_realm_future_past_present_tense"
+    volumes:
+      - ./worlds/alexs_christian_realm_future_past_present_tense:/data/world
+      - ./worlds/alexs_christian_realm_future_past_present_tense:/data
+    restart: unless-stopped
