@@ -9,6 +9,5 @@ services:
       MEMORY: "2G"
       LEVEL: "alexs_christian_realm_future_past_present_tense"
     volumes:
-      - ./worlds/alexs_christian_realm_future_past_present_tense:/data/world
-      - ./worlds/alexs_christian_realm_future_past_present_tense:/data
+      - ./data:/data
     restart: unless-stopped
