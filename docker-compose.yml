@@ -6,7 +6,7 @@ services:
       - "25565:25565"
     environment:
       EULA: "TRUE"
-      MEMORY: "2G"
+      MEMORY: "1G"
       LEVEL: "alexs_christian_realm_future_past_present_tense"
     volumes:
       - ./data:/data
